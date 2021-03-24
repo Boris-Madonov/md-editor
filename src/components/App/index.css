@@ -1,0 +1,30 @@
+.page {
+  background-color: rgb(234, 233, 239);
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Inter';
+  font-weight: normal;
+  color: #000000;
+}
+
+.md-editor__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.md-editor__area {
+  font-size: 20px;
+  line-height: 1.2;
+  border: none;
+  height: calc(50vh - 10px);
+  padding: 15px;
+}
+
+.md-editor__preview {
+  font-size: 20px;
+  line-height: 1.2;
+  padding: 15px;
+}
